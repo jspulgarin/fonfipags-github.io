@@ -1,0 +1,71 @@
+/* Estilos para el cuerpo y la tipografía */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+.imagen-zoom{
+    width: 150px; /* Cambia el ancho */
+    height:4cm; /* Mantén la proporción original */
+    margin: 0.1cm;
+    transition: transform 0.3s ease;
+}
+
+.imagen-zoom:hover {
+    transform: scale(1.1); /* Escalar la imagen al 110% en hover */
+}
+
+/* Estilos para el encabezado (header) */
+header {
+    background-color: #94406a;
+    color: rgb(54, 18, 18);
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(44, 12, 7);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el contenido principal (main) */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+
+/* Estilos para el pie de página (footer) */
+footer {
+    background-color: #532c20;
+    color: rgb(46, 30, 11);
+    text-align: center;
+    padding: 10px;
+    position:unset
+
+}
